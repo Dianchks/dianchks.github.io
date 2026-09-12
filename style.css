@@ -183,31 +183,43 @@ img {
     font-size: 11px;
 }
 
-@media (max-width: 600px) {
-    body {
-        margin: 0;
+@media (max-width: 700px) {
+     body {
         padding: 15px;
     }
 
-    header {
+    .resume {
+        display: block;
         width: 100%;
-        text-align: center;
+        min-height: auto;
     }
 
-    h1 {
-        font-size: 28px;
+    .sidebar {
+        width: 100%;
+        padding: 30px 20px;
     }
 
-    h2 {
-        font-size: 22px;
+    .content {
+        width: 100%;
+        padding: 35px 25px;
     }
 
-    p {
-        font-size: 16px;
+    .photo {
+        width: 140px;
+        height: 140px;
     }
 
-    img {
+    .sidebar h1 {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .content p {
         max-width: 100%;
-        height: auto;
+        font-size: 13px;
+    }
+
+    .interests {
+        gap: 8px;
     }
 }
