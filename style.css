@@ -36,11 +36,11 @@ body {
     border: 6px solid white;
     box-shadow: 0 5px 20px rgba(80, 50, 45, 0.15);
 }
-img {
+.photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 60% center;
+    object-position: 90% center;
 }
 /* ИМЯ */
 .sidebar h1 {
