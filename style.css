@@ -182,30 +182,4 @@ body {
     color: #765b54;
     font-size: 11px;
 }
-/* АДАПТАЦИЯ ПОД ТЕЛЕФОН */
-max-width: 700px {
-    body {
-        padding: 15px;
-    }
-    .resume {
-        flex-direction: column;
-        border-radius: 15px;
-    }
-    .sidebar,
-    .content {
-        width: 100%;
-    }
-    .sidebar {
-        padding: 35px 25px;
-    }
-    .content {
-        padding: 35px 25px;
-    }
-    .photo {
-        width: 140px;
-        height: 140px;
-    }
-    .sidebar h1 {
-        font-size: 25px;
-    }
-}
+
