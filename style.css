@@ -79,6 +79,15 @@ body {
 .side-section a:hover {
     text-decoration: underline;
 }
+
+.portfolio-link,
+.portfolio-link:visited,
+.portfolio-link:active,
+.portfolio-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
 /* ЗВЁЗДОЧКИ В ЛЕВОЙ КОЛОНКЕ */
 .stars {
     list-style: none;
@@ -224,10 +233,3 @@ body {
     }
 }
 
-.portfolio-link,
-.portfolio-link:visited,
-.portfolio-link:active,
-.portfolio-link:hover {
-    color: inherit;
-    text-decoration: none;
-}
